@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="video_closemic">关闭麦克风</string>
+    <string name="video_handfree">免提</string>
+    <string name="video_camera_txt">摄像头</string>
+    <string name="video_call_phonenum">拨打手机</string>
+    <string name="video_switch_camera">切换摄像头</string>
+    <string name="video_close_video">关闭画面</string>
+    <string name="video_hang_up">挂断</string>
+    <string name="audio_open_camera_acc_txt">打开我的摄像头</string>
+    <string name="audio_close_camera_acc_txt">关闭我的摄像头</string>
+    <string name="audio_close_mic_acc_txt">关闭麦克风</string>
+    <string name="audio_disable_camera_acc_txt">发起通话时暂不能打开摄像头</string>
+    <string name="audio_switch_to_headset_mode_acc_txt">关闭免提</string>
+    <string name="audio_switch_to_speaker_mode_acc_txt">打开免提</string>
+    <string name="gaudio_close_mic_acc_txt">关闭麦克风</string>
+    <string name="gaudio_open_mic_acc_txt">打开麦克风</string>
+    <string name="gaudio_switch_camera_front_acc_txt">换用后置摄像头</string>
+    <string name="gaudio_switch_camera_back_acc_txt">换用前置摄像头</string>
+    <string name="gaudio_hangup_acc_txt">退出多人通话</string>
+    <string name="me">我</string>
+
+    <string name="account">账号</string>
+    <string name="password">密码</string>
+
+    <string name="cancel">取消</string>
+
+    <string name="content_voice_count">共%d集</string>
+
+    <string name="start_recording_video">录制开始</string>
+    <string name="stop_recording_video">录制停止</string>
+
+    <string name="network_exception">无法连接网络，请检查你的手机网络设置</string>
+
+    <string name="app_name">av_lib</string>
+    <!--<string name="action_settings">Settings</string>-->
+
+    <!--&lt;!&ndash; 项目全局公用字符串定义 &ndash;&gt;-->
+    <!--<string name="yes">是</string>-->
+    <!--<string name="no">否</string>-->
+    <!--<string name="delete">删除</string>-->
+    <!--<string name="exit">退出</string>-->
+    <string name="back">返回</string>
+    <!--<string name="giveup">放弃</string>-->
+    <!--<string name="login">登录</string>-->
+
+    <!--&lt;!&ndash; 功能首页 &ndash;&gt;-->
+    <!--<string name="exit_title">确定要退出</string>-->
+    <!--<string name="exit_message">您确定要退出应用吗？</string>-->
+
+    <string name="download_progress">正在下载:%d%%</string>
+    <string name="download_progress_size">正在下载:%.2fM</string>
+    <string name="download_success">下载完成，点击安装</string>
+    <string name="find_new_version">发现新版本%s</string>
+    <string name="check_version_no_longer_remind">不再提醒</string>
+    <string name="check_version_remind_later">稍后提醒</string>
+    <string name="check_version_update_immediately">立即更新</string>
+    <string name="download_fail">更新失败，请稍后重试</string>
+
+    <!--&lt;!&ndash; 照片上传功能 &ndash;&gt;-->
+    <!--<string name="upload_photo_title">照片上传</string>-->
+    <string name="select_finish">完成(%1$d/%2$d)</string>
+    <string name="select_preview">预览(%1$d/%2$d)</string>
+    <string name="select_max_count">最多只能选择%1$d张照片</string>
+    <!--<string name="select">选择</string>-->
+    <!--<string name="change">变更</string>-->
+    <string name="select_photo_first">请先选择照片</string>
+    <string name="preview_back">返回(%1$d/%2$d)</string>
+    <!--<string name="upload">上传(%1$d)</string>-->
+    <!--<string name="upload_select_family">至少选择一个家庭</string>-->
+    <!--<string name="upload_original">原图(%1$s)</string>-->
+    <!--<string name="upload_not_wifi">网络连接不是WIFI，上传照片将消耗流量，确认上传？</string>-->
+    <!--<string name="upload_confirm">确认上传</string>-->
+    <string name="upload_uploading">照片上传中</string>
+    <!--<string name="upload_tag">标签</string>-->
+    <!--<string name="tag_input_title">输入标签</string>-->
+    <!--<string name="tag_input_message">最多输入5个汉字</string>-->
+    <!--<string name="tag_input_too_shot">输入标签过短</string>-->
+    <!--<string name="tag_input_too_long">输入标签过长</string>-->
+    <!--<string name="tag_input_max_text_length">这是五个字</string>-->
+    <!--<string name="tag_input_confirm">添加</string>-->
+    <!--<string name="upload_tag_delete_title">删除标签</string>-->
+    <!--<string name="upload_tag_delete_message">要删除标签[%1$s]吗？</string>-->
+    <!--<string name="upload_photo_cancel_message">退出此次编辑？</string>-->
+    <!--<string name="input_nickname_first">请先输入昵称</string>-->
+    <!--<string name="clearn">清空</string>-->
+    <!--<string name="robot_list">机器人列表</string>-->
+    <!--<string name="member_list">成员列表</string>-->
+    <!--<string name="previous">上一步</string>-->
+    <!--<string name="next">下一步</string>-->
+    <!--<string name="get_pin">发送验证码</string>-->
+    <!--<string name="hello_world">Hello world!</string>-->
+    <!--<string name="robot_item_imageview_contentDescription"></string>-->
+    <!--<string name="robot_item_btn_voicecall">语音通话</string>-->
+    <!--<string name="robot_item_btn_videocall">视频通话</string>-->
+    <!--<string name="robot_item_btn_control">实时监控</string>-->
+    <!--<string name="robot_item_btn_start">开始</string>-->
+    <!--<string name="fragment_photo">照片</string>-->
+    <!--<string name="mine">我的</string>-->
+    <!--<string name="no_relevant_personnel_were_found">没有查到相关人员信息</string>-->
+    <!--<string name="search">搜索</string>-->
+    <!--<string name="add">添加</string>-->
+    <!--<string name="member">人员</string>-->
+    <!--<string name="invitation_success">成功发送邀请</string>-->
+    <!--<string name="robot">机器人</string>-->
+    <!--<string name="family">家庭</string>-->
+    <!--<string name="information">资料</string>-->
+    <!--<string name="message">消息</string>-->
+    <!--<string name="collection">收藏</string>-->
+    <!--<string name="fragment_robot">机器人</string>-->
+    <!--<string name="fragment_resources">资源库</string>-->
+    <!--<string name="fragment_home">家园</string>-->
+    <!--<string name="fragment_mine">我的</string>-->
+    <!--<string name="voice_calls">语音通话</string>-->
+    <!--<string name="video_calls">视频通话</string>-->
+    <!--<string name="splash_info">This is splash</string>-->
+    <string name="register_hint_input_phone_number">请输入手机号码</string>
+    <string name="register_hint_input_password">请输入密码</string>
+    <string name="register_hint_input_verify">请输入验证码</string>
+    <!--<string name="register_et_hint_password_hint">密码为6至16位数字或字母</string>-->
+    <!--<string name="register_tv_agree_terms">注册表示您同意服务使用协议和隐私条款</string>-->
+    <!--<string name="register_btn_register">注册</string>-->
+    <!--<string name="register_btn_account_login">账号登陆</string>-->
+    <string name="login_hint_input_phone">请输入手机号</string>
+    <string name="login_hint_input_password">请输入密码</string>
+    <string name="logint_et_hint_check_number">输入验证码</string>
+    <!--<string name="login_btn_change_another_picture">看不清,换一张</string>-->
+    <!--<string name="login_btn_face_login">刷脸登录</string>-->
+    <!--<string name="login_btn_login">密码登陆</string>-->
+    <!--<string name="login_btn_forgot_password">忘记密码</string>-->
+    <!--<string name="register_login_btn_register">注册</string>-->
+    <!--<string name="register_login_btn_login">登陆</string>-->
+    <!--<string name="login_face_over_time">刷脸登陆超时</string>-->
+    <!--<string name="login_face_success">刷脸登陆成功</string>-->
+    <!--<string name="login_success">登陆成功</string>-->
+    <!--<string name="login_input_right_phoneNo">请输入正确的手机号</string>-->
+    <!--<string name="login_username_or_password_wrong">登陆账号或密码错误</string>-->
+    <!--<string name="register_success">注册成功</string>-->
+    <!--<string name="register_id_has_been_registered">此手机用户已注册</string>-->
+    <!--<string name="register_failure">注册失败</string>-->
+    <!--<string name="register_get_publickey_failuer">获取公钥失败</string>-->
+    <!--<string name="login_username_empty">用户名不能为空</string>-->
+    <!--<string name="login_pin_error">验证码错误</string>-->
+    <!--<string name="login_username_less_than_eight">用户名长度不能少于8位</string>-->
+    <!--<string name="login_username_more_than_twenty">用户名长度不能超过20位</string>-->
+    <!--<string name="login_password_empty">密码为空</string>-->
+    <!--<string name="login_password_less_than_six">密码长度不能低于6位</string>-->
+    <!--<string name="login_password_more_than_sixteen">密码长度不能超过16位</string>-->
+    <!--<string name="login_password_unnorm">密码不符合规范</string>-->
+    <!--<string name="login_fail">登陆失败</string>-->
+    <!--<string name="loginface_count_test">人脸上传的次数</string>-->
+    <!--<string name="ll_my_message">我的消息</string>-->
+    <!--<string name="ll_my_favorite">我的收藏</string>-->
+    <!--<string name="ll_my_family">我的家庭</string>-->
+    <!--<string name="ll_my_robot">我的机器人</string>-->
+    <!--<string name="ll_login_out">退出登录</string>-->
+    <!--<string name="nick_name">昵称</string>-->
+    <!--<string name="family_id">群号</string>-->
+    <!--<string name="family_name">家庭名称</string>-->
+    <!--<string name="owner_nickname">主人昵称</string>-->
+    <!--<string name="phone_no">亲友号</string>-->
+    <!--<string name="robot_code">机器码</string>-->
+    <!--<string name="password">密码</string>-->
+    <!--<string name="please_input_phone_number">请输入手机号</string>-->
+    <!--<string name="face_swiping_login">刷脸登陆</string>-->
+    <!--<string name="user_address">我的地址</string>-->
+    <!--<string name="sex">性别</string>-->
+    <!--<string name="version">版本</string>-->
+    <!--<string name="man">男</string>-->
+    <!--<string name="woman">女</string>-->
+    <!--<string name="change_password">修改密码</string>-->
+    <!--<string name="share_wifi_password">共享WiFi密码</string>-->
+    <!--<string name="save">保存</string>-->
+    <!--<string name="makesure">确定</string>-->
+    <!--<string name="name">名字</string>-->
+    <!--<string name="modify_success">修改成功</string>-->
+    <!--<string name="modify_fail">修改失败</string>-->
+    <!--<string name="pass_password">原密码</string>-->
+    <!--<string name="new_password">新密码</string>-->
+    <!--<string name="sure_password">确认密码</string>-->
+    <!--<string name="address">地址</string>-->
+    <!--<string name="UserFaceSwipingsHint">需要采集四张照片作为刷脸登录数据，请根据提示采集</string>-->
+    <!--<string name="turn_on">启用</string>-->
+    <!--<string name="binding">绑定</string>-->
+    <!--<string name="build_family">创建家庭</string>-->
+    <!--<string name="delete_family">删除家庭</string>-->
+    <!--<string name="delete_member">删除人员</string>-->
+    <!--<string name="unbinding_robot">解绑机器人</string>-->
+    <!--<string name="admin">管理员</string>-->
+    <!--<string name="owner">主人</string>-->
+    <!--<string name="add_success">添加成功</string>-->
+    <!--<string name="delete_success">删除成功</string>-->
+    <!--<string name="clearnup">清除完毕</string>-->
+    <!--<string name="auth">权限</string>-->
+    <!--<string name="nickname">成员昵称</string>-->
+    <!--<string name="relationName">成员角色</string>-->
+    <!--<string name="face_swiping">刷脸识别</string>-->
+    <!--<string name="config">设置</string>-->
+    <!--<string name="turn_off">不启用</string>-->
+    <!--<string name="wifi">Wi-Fi</string>-->
+    <!--<string name="pleaseinput">请输入</string>-->
+    <!--<string name="build_family_first">请先创建家庭</string>-->
+    <!--<string name="wifi_qr">Wi-Fi二维码</string>-->
+    <!--<string name="add_to_family">添加</string>-->
+    <!--<string name="build_qr">生成二维码</string>-->
+    <!--<string name="has_no_account">还没有小忆账户，点击</string>-->
+    <string name="please_input_password">请输入密码</string>
+    <!--<string name="please_input_family_name">请输入家庭名称</string>-->
+    <!--<string name="please_input_member_relation">请选择成员角色</string>-->
+    <!--<string name="has_added">已添加</string>-->
+    <!--<string name="scan_tips">将二维码图片对准扫描框即可自动扫描</string>-->
+    <!--<string name="please_input_nickname">请输入昵称</string>-->
+    <string name="please_choose_wifi">请选择网络</string>
+    <!--<string name="wifipasswordhint">请把二维码放到摄像头前</string>-->
+    <!--<string name="UserFaceSwipingsAgree">使用刷脸登录，就表示您同意刷脸登录的</string>-->
+    <!--<string name="server_error_info">服务器异常，请稍后重试</string>-->
+    <!--<string name="change_admin_info">"变更管理员后,你将失去管理这个\n家庭的所有权限."</string>-->
+    <!--<string name="loading_tip">努力加载中，请稍等...</string>-->
+    <!--<string name="error_tip">糟糕，发生错误。</string>-->
+    <!--<string name="retry">重试</string>-->
+    <!--<string name="call">通话</string>-->
+    <!--<string name="time">时光</string>-->
+    <!--<string name="photo">相册</string>-->
+    <!--<string name="ok">确定</string>-->
+    <!--<string name="cancel">取消</string>-->
+    <!--<string name="pleaseLoginBypassword">首次在本机登录，请使用用户名/密码</string>-->
+
+    <!--<string name="guide_welcome">小忆机器人欢迎您！</string>-->
+    <!--<string name="guide_scan_qrcode">点击扫描二维码</string>-->
+    <!--<string name="guide_continue_create_family">继续创建家庭</string>-->
+    <!--<string name="guide_bind_robot_success_info">机器人绑定成功，请完善家庭信息</string>-->
+    <!--<string name="guide_scan_robot_success_info">扫描成功，请完善信息完成绑定</string>-->
+    <!--<string name="guide_bind_robot_fail_info">抱歉，该机器人已经被绑定</string>-->
+    <!--<string name="guide_name_could_not_be_empty_toast">名字不能为空哦~</string>-->
+    <!--<string name="guide_finish">完成引导~</string>-->
+    <!--<string name="invite_code">邀请码</string>-->
+    <!--<string name="invite_person">邀请%s</string>-->
+    <!--<string name="invite_code_input_title">输入邀请码</string>-->
+    <!--<string name="invite_code_num_error">请输入正确的邀请码</string>-->
+    <!--<string name="invite_code_share_template">我在小忆创建了一个家庭，快来加入吧！邀请码：%s</string>-->
+    <string
+            name="invite_code_share_template">%1$s，快使用邀请码加入%2$s的家庭。邀请码：%3$s 小忆app
+        下载地址: http://www.robotant.com.cn/mobile/appdown.html
+    </string>
+
+    <!--<string name="role_father">爸爸</string>-->
+    <!--<string name="role_mother">妈妈</string>-->
+    <!--<string name="role_grandfather">爷爷</string>-->
+    <!--<string name="role_grandmother">奶奶</string>-->
+    <!--<string name="role_mother_father">外公</string>-->
+    <!--<string name="role_mother_mother">外婆</string>-->
+    <!--<string name="role_other">其他成员</string>-->
+
+    <!--<string name="join_family">加入家庭</string>-->
+    <!--<string name="create_family">创建家庭</string>-->
+
+    <string name="http_error_server_connection_fail">连接服务器错误，请稍后重试</string>
+    <string name="http_error_photo_get_fail">获取图片失败</string>
+    <string name="http_error_page_visit_fail">页面访问失败</string>
+    <string name="disk_no_space_exception">磁盘空间不足, 请释放磁盘空间, 或到"设置"中清除缓存</string>
+    <string name="read_photo_fail">无法读取手机图片，请检查所选图片是否已被删除。</string>
+    <string name="publisher_read_failed_upload">内存不足无法上传</string>
+    <!--<string name="logout_message">确定要注销吗?</string>-->
+    <!--<string name="delete_family_message">"删除家庭后,这个家庭的所有相片以及\n时光图片都将会被删除!"</string>-->
+    <!--&lt;!&ndash;登陆注册相关&ndash;&gt;-->
+    <!--<string name="unregister_success">反注册成功</string>-->
+    <!--<string name="unregister_fail">反注册失败</string>-->
+    <!--<string name="register_fail_and_reason">注册失败，错误码：</string>-->
+    <!--<string name="push_register_fail_reason">注册失败，错误码：%1$s,错误信息：%2$s</string>-->
+    <!--<string name="input_right_phonenum">请输入正确的手机号码</string>-->
+    <!--<string name="register">注册</string>-->
+    <!--&lt;!&ndash;家庭相关&ndash;&gt;-->
+    <!--<string name="family_delete_confirm">确定要删除本家庭吗</string>-->
+    <!--<string name="family_member_delete_confirm">确定要删除此成员吗</string>-->
+    <!--<string name="robot_delete_confirm">确定要删除机器人吗</string>-->
+    <!--<string name="super_admin">超级管理员</string>-->
+    <!--<string name="family_member">成员</string>-->
+    <!--&lt;!&ndash;上传照片相关&ndash;&gt;-->
+    <!--<string name="num_of_pic">%d张</string>-->
+    <!--<string name="tag_beautiful">太美了</string>-->
+    <!--<string name="tag_tomorrow_will_better">明天会更好</string>-->
+    <string name="tag_laugh">#笑</string>
+    <string name="tag_lovely">#可爱</string>
+    <string name="tag_cry">#哭</string>
+    <string name="tag_happy">#开心</string>
+    <string name="tag_naughty">#调皮</string>
+
+    <!--<string name="input_nick_name_tip">请输入昵称</string>-->
+    <!--<string name="password_not_match_when_register">两次密码输入不一致</string>-->
+    <!--<string name="password_not_right_when_change_password">原密码不对</string>-->
+    <!--<string name="input_address_tip">请输入地址</string>-->
+
+    <!--<string name="exception_info_of_popup_window">需要为弹窗设置布局</string>-->
+    <!--<string name="robot_default_name">机器人</string>-->
+    <!--<string name="family_all">大家</string>-->
+    <!--<string name="please_add_robot_first">请先添加机器人</string>-->
+    <!--<string name="uid1">91CXAPC3C5HCZZ6M111A</string>-->
+    <!--<string name="uid2">P3733FNGJFFU3PL1111A</string>-->
+    <!--&lt;!&ndash;<string name="uid1">K15XUHFXXZPK5PDK111A</string>&ndash;&gt;-->
+    <!--&lt;!&ndash;<string name="uid2">GDCUW9ZLC4P9NFYL111A</string>&ndash;&gt;-->
+    <!--&lt;!&ndash;<string name="uid1">GDCUW9ZLC4P9NFYL111A</string>&ndash;&gt;-->
+    <!--&lt;!&ndash;<string name="uid2">K15XUHFXXZPK5PDK111A</string>&ndash;&gt;-->
+
+
+    <!--&lt;!&ndash;第一版&ndash;&gt;-->
+    <!--&lt;!&ndash;<string name="uid2">EB4TAHP68WKRBNPPSZYJ</string>&ndash;&gt;-->
+    <!--&lt;!&ndash;<string name="uid1">FBJ9AXRY1YKF8HPPWF61</string>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;腾讯视频&ndash;&gt;-->
+    <!--<string name="video_closemic">关闭麦克风</string>-->
+    <!--<string name="video_handfree">免提</string>-->
+    <!--<string name="video_camera_txt">摄像头</string>-->
+    <!--<string name="video_call_phonenum">拨打手机</string>-->
+    <!--<string name="video_switch_camera">切换摄像头</string>-->
+    <!--<string name="video_close_video">关闭画面</string>-->
+    <!--<string name="video_hang_up">挂断</string>-->
+    <!--<string name="audio_open_camera_acc_txt">打开我的摄像头</string>-->
+    <!--<string name="audio_close_camera_acc_txt">关闭我的摄像头</string>-->
+    <!--<string name="audio_close_mic_acc_txt">关闭麦克风</string>-->
+    <!--<string name="audio_disable_camera_acc_txt">发起通话时暂不能打开摄像头</string>-->
+    <!--<string name="audio_switch_to_headset_mode_acc_txt">关闭免提</string>-->
+    <!--<string name="audio_switch_to_speaker_mode_acc_txt">打开免提</string>-->
+    <!--<string name="gaudio_close_mic_acc_txt">关闭麦克风</string>-->
+    <!--<string name="gaudio_open_mic_acc_txt">打开麦克风</string>-->
+    <!--<string name="gaudio_switch_camera_front_acc_txt">换用后置摄像头</string>-->
+    <!--<string name="gaudio_switch_camera_back_acc_txt">换用前置摄像头</string>-->
+    <!--<string name="gaudio_hangup_acc_txt">退出多人通话</string>-->
+    <string name="gvideo_request_video_acc_txt">该好友正在视频，按下可观看该好友的视频</string>
+    <string name="gvideo_request_screen_acc_txt">该好友正在屏幕分享，按下可观看该好友的屏幕分享</string>
+    <string name="gvideo_play_video_acc_txt">正在播放该好友的视频</string>
+    <string name="gvideo_play_screen_acc_txt">正在播放该好友的屏幕分享</string>
+    <string name="gvideo_speaking_acc_txt">该好友正在语音</string>
+    <!--<string name="video_close_remote_video_acc_txt">关闭画面</string>-->
+    <!--<string name="qav_gaudio_waiting_text">等待大家加入</string>-->
+    <!--<string name="login_prefix">选择登录的测试号：</string>-->
+    <!--<string name="receive">接收方</string>-->
+    <!--<string name="empty_text">无</string>-->
+    <!--<string name="invite_test">接收方弹窗测试</string>-->
+    <!--<string name="invite_title">是否接受对方邀请</string>-->
+    <string name="invite_refused_toast">对方拒绝接受邀请</string>
+    <string name="invite_canceled_toast">对方放弃邀请</string>
+    <!--<string name="dialog_waitting_title">等待对方接受邀请</string>-->
+    <!--<string name="join">加入</string>-->
+    <!--<string name="default_room_id">72057594042791</string>-->
+    <!--<string name="create_room">创建房间</string>-->
+    <!--<string name="at_login">登录中</string>-->
+    <!--<string name="login_failed">登录失败</string>-->
+    <!--<string name="at_logout">登出中</string>-->
+    <!--<string name="at_create_room">创建房间中</string>-->
+    <!--<string name="create_room_failed">创建房间失败</string>-->
+    <!--<string name="at_join_room">加入房间中</string>-->
+    <!--<string name="at_close_room">关闭房间中</string>-->
+    <!--<string name="close_room_failed">关闭房间失败</string>-->
+    <string name="notify_network_error">网络无法联通，请检查网络</string>
+    <!--&lt;!&ndash;<string name="login">选择测试号登录</string>&ndash;&gt;-->
+    <!--<string name="menu">菜单</string>-->
+    <!--<string name="handfree_summary">开关扬声器</string>-->
+    <!--<string name="mic">麦克风</string>-->
+    <!--<string name="mic_summary">开关麦克风</string>-->
+    <!--<string name="camera_summary">开关摄像头</string>-->
+    <string name="interface_initialization">界面初始化中</string>
+    <!--<string name="me">我</string>-->
+    <string name="avendpoint_is_null">该成员已退出</string>
+    <string name="error_code_prefix">错误码：</string>
+    <!--<string name="action_add">添加一条测试号</string>-->
+    <!--<string name="qq_prefix">昵称：</string>-->
+    <!--<string name="openid_prefix">identifier：</string>-->
+    <!--<string name="openkey_prefix">usersig：</string>-->
+    <string name="at_on_camera">打开摄像头中</string>
+    <string name="on_camera_failed">打开摄像头失败</string>
+    <string name="at_off_camera">关闭摄像头中</string>
+    <string name="off_camera_failed">关闭摄像头失败</string>
+    <string name="at_switch_front_camera">换用前置摄像头中</string>
+    <string name="switch_front_camera_failed">换用前置摄像头失败</string>
+    <string name="at_switch_back_camera">换用后置摄像头中</string>
+    <string name="switch_back_camera_failed">换用后置摄像头失败</string>
+    <string name="room_id">房间号</string>
+    <string name="at_accept">接受邀请中</string>
+    <string name="accept_failed">接受邀请失败</string>
+    <string name="at_invite">邀请中</string>
+    <string name="invite_failed">邀请失败</string>
+    <string name="at_refuse">拒绝邀请中</string>
+    <string name="refuse_failed">拒绝邀请失败</string>
+    <string name="join_room_failed">加入房间失败</string>
+    <string name="peer_leave">对方已退出房间</string>
+
+    <string name="notify_peer_camera_open">对方已开启摄像头</string>
+    <string name="notify_peer_camera_close">对方已关闭摄像头</string>
+    <string name="notify_peer_mic_open">对方已开启麦克风</string>
+    <string name="notify_peer_mic_close">对方已关闭麦克风</string>
+
+    <string name="notify_conflict">对方也在给你发邀请，请不要同时呼叫</string>
+    <string name="notify_no_network">网络无连接，请检查网络</string>
+    <string name="tips_show">打开tips</string>
+    <string name="tips_close">关闭tips</string>
+
+    <!--通话相关-->
+    <string name="call_peer_cancel">对方取消呼叫</string>
+    <string name="call_peer_offline">对方不在线，请稍后再拨</string>
+    <string name="call_peer_deny">对方暂时不方便接听，请稍后再拨</string>
+    <string name="call_peer_is_calling">对方正在通话，请稍后再拨</string>
+    <string name="call_time_out">暂时无人接听，请稍候再拨</string>
+    <string name="send_msg_too_long">消息太长</string>
+    <string name="send_msg_fail_for_peer_not_login">对方账号不存在或未登陆过！</string>
+    <string name="send_msg_fail">发送消息失败</string>
+    <string name="send_msg_success">发送消息成功</string>
+    <string name="init_fail">初始化失败，请稍候再试</string>
+    <string name="init_fail_retry">初始化失败，正在重试</string>
+
+    <string name="robot_not_active_tip">请先激活小忆机器人</string>
+
+    <!--&lt;!&ndash;分享&ndash;&gt;-->
+    <string name="errcode_success">发送成功</string>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_unknown">发送返回</string>
+
+    <string name="onlinestatus_online">在线</string>
+    <string name="onlinestatus_offline">离线</string>
+
+    <!--<string name="send">发送到微信</string>-->
+    <!--<string name="receive">从微信接收</string>-->
+
+    <!--<string name="is_timeline">是否分享到朋友圈</string>-->
+    <!--<string name="send_text">发送文本</string>-->
+    <!--<string name="send_text_default">这段文字发送自微信SDK示例程序</string>-->
+
+    <!--<string name="send_img">发送图片</string>-->
+    <!--<string-array name="send_img_item">-->
+    <!--<item>发送图片的二进制数据</item>-->
+    <!--<item>发送图片的本地路径</item>-->
+    <!--<item>发送图片的URL</item>-->
+    <!--</string-array>-->
+    <!--<string name="send_img_file_not_exist">文件不存在</string>-->
+
+    <!--<string name="send_pic">发送照片</string>-->
+
+    <!--<string name="send_music">发送音乐</string>-->
+    <!--<string-array name="send_music_item">-->
+    <!--<item>发送音乐url</item>-->
+    <!--<item>发送低带宽音乐url</item>-->
+    <!--</string-array>-->
+
+    <!--<string name="send_video">发送视频</string>-->
+    <!--<string-array name="send_video_item">-->
+    <!--<item>发送视频url</item>-->
+    <!--<item>发送低带宽视频url</item>-->
+    <!--</string-array>-->
+
+    <!--<string name="send_webpage">发送网页</string>-->
+    <!--<string-array name="send_webpage_item">-->
+    <!--<item>发送网页url</item>-->
+    <!--</string-array>-->
+
+    <!--&lt;!&ndash; 分享微博主界面 &ndash;&gt;-->
+    <!--<string name="weibosdk_demo_share_to_weibo_title">从本应用->微博->本应用</string>-->
+    <!--<string name="weibosdk_demo_share_to_weibo_title_all_in_one">分享微博ALL IN ONE</string>-->
+    <!--<string name="weibosdk_demo_share_from_weibo_title">从微博->本应用->微博</string>-->
+    <!--<string name="weibosdk_demo_share_default_text">欢迎使用新浪微博 SDK</string>-->
+    <!--<string name="weibosdk_demo_share_to">分  享</string>-->
+    <!--<string name="weibosdk_demo_share_text_title">分享文字</string>-->
+    <!--<string name="weibosdk_demo_share_image_title">分享图片</string>-->
+    <!--<string name="weibosdk_demo_share_webpage_title">分享网页</string>-->
+    <!--<string name="weibosdk_demo_share_music_title">分享音乐</string>-->
+    <!--<string name="weibosdk_demo_share_video_title">分享视频</string>-->
+    <!--<string name="weibosdk_demo_share_voice_title">分享声音</string>-->
+    <!--<string name="weibosdk_demo_share_text_template">我正在使用微博客户端发博器分享文字</string>-->
+    <!--<string name="weibosdk_demo_share_webpage_template">【%1$s】（分享自 WeiboSDKDemo %2$s）</string>-->
+    <!--<string name="weibosdk_demo_app_url">https://github.com/mobileresearch/weibo_android_sdk/blob/master/WeiboSDKDemo.apk</string>-->
+    <!--<string name="weibosdk_demo_share_webpage_demo">XXX 新闻</string>-->
+    <!--<string name="weibosdk_demo_share_webpage_desc">网页描述：XXX</string>-->
+    <!--<string name="weibosdk_demo_test_webpage_url">http://news.sina.com.cn/c/2013-10-22/021928494669.shtml</string>-->
+    <!--<string name="weibosdk_demo_not_support_api_hint">微博客户端不支持 SDK 分享或微博客户端未安装或微博客户端是非官方版本。</string>-->
+
+    <!--&lt;!&ndash; 分享成功失败的 Toast &ndash;&gt;-->
+    <!--<string name="weibosdk_demo_toast_share_success">分享成功</string>-->
+    <!--<string name="weibosdk_demo_toast_share_failed">分享失败</string>-->
+    <!--<string name="weibosdk_demo_toast_share_canceled">取消分享</string>-->
+
+    <string name="version_name">小忆app%s版</string>
+
+</resources>

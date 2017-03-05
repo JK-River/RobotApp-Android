@@ -1,0 +1,123 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+-ignorewarnings
+
+-dontwarn javax.naming.**
+-dontwarn junit.textui.**
+-dontwarn javax.swing.**
+-dontwarn javax.management.**
+-dontwarn javax.mail.**
+-dontwarn javax.jms.**
+-dontwarn java.awt.**
+-dontwarn java.beans.**
+-dontwarn com.alibaba.**
+-dontwarn com.tencent.**
+-dontwarn org.apache.log4j.**
+-dontwarn okio.**
+
+#-libraryjars /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
+
+-keep class tencent.tls.** { *;}
+-keep class com.tencent.** { *;}
+-keep class com.qq.** { *;}
+-keep class com.alibaba.** { *;}
+-keep class com.kobot.xiaoyi.model.** { *;}
+-keep class org.apache.** { *;}
+-keep class com.android.** { *;}
+-keep class android.net.** { *;}
+
+-keep public class com.kobot.xiaoyi.R$*{
+    public static final int *;
+}
+
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep class com.tencent.android.tpush.**  {* ;}
+-keep class com.tencent.mid.**  {* ;}
+
+-keep class com.tencent.**{*;}
+-dontwarn com.tencent.**
+
+-keep class tencent.**{*;}
+-dontwarn tencent.**
+
+-keep class qalsdk.**{*;}
+-dontwarn qalsdk.**
+
+-keepclassmembers class * {
+   public <init> (org.json.JSONObject);
+}
+
+-keep public class com.kobot.xiaoyi.R$*{
+public static final int *;
+}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keepattributes *Annotation*
+
+#喜马拉雅
+-keep public class com.android.vending.licensing.ILicensingService
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+
+-keep class okio.** { *;}
+
+-dontwarn com.squareup.okhttp.**
+-keep class com.squareup.okhttp.** { *;}
+
+-dontwarn com.ximalaya.ting.android.player.**
+-keep class com.ximalaya.ting.android.player.** { *;}
+
+-dontwarn com.google.gson.**
+-keep class com.google.gson.** {*;}
+
+-dontwarn org.litepal.**
+-keep class org.litepal.** {*;}
+
+-keep class com.ximalaya.ting.android.** {*;}
+-keep interface com.ximalaya.ting.android.** {*;}
+-keep public enum com.ximalaya.ting.android.** { *; }
+
+# Gson uses generic type information stored in a class file when working with fields. Proguard
+# removes such information by default, so configure it to keep all of it.
+-keepattributes Signature
+
+# Gson specific classes
+-keep class sun.misc.Unsafe { *; }
+#-keep class com.google.gson.stream.** { *; }
+
+# Application classes that will be serialized/deserialized over Gson
+-keep class com.google.gson.** { *; }

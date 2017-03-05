@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qav_gaudio_bg" >
+
+    <include
+        android:id="@+id/av_video_layer_ui"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/qav_video_layer_ui" />
+
+     <TextView 
+        android:id="@+id/qav_tips_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"   
+        android:layout_marginTop="100dp"
+        android:textSize="12sp"
+        android:singleLine="false"
+        android:maxLength="2000"
+		android:layout_alignParentLeft="true"
+  	/>  
+  	
+     <TextView 
+        android:id="@+id/qav_show_tips"
+        android:layout_width="50dp"
+        android:layout_height="20dp"   
+        android:layout_marginTop="100dp"
+        android:textSize="12sp"
+        android:singleLine="false"
+        android:background="#00000000"
+		android:layout_alignParentRight="true"
+  	/>
+    
+    <include
+        android:id="@+id/qav_bottom_bar"
+        android:layout_alignParentBottom="true"
+        layout="@layout/qav_bottom_bar" />
+
+    <RelativeLayout
+            android:id="@+id/qav_control_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true">
+
+        <com.kobot.lib.utils.img.RoundedImageView
+                android:id="@+id/robot_talk_control_bg"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/video_icon_controller"/>
+
+        <ImageView
+                android:id="@+id/robot_talk_control_ball"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/robot_control_ball"/>
+
+    </RelativeLayout>
+
+    <com.kobot.lib.utils.img.RoundedImageView
+            android:id="@+id/robot_talk_bell"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_marginRight="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/video_icon_bell"/>
+
+</RelativeLayout>
